@@ -1,5 +1,7 @@
 # bw-napi-test
 
+This repository is an TS Node project using Bitwarden's [Secrets Manager SDK](https://www.npmjs.com/package/@bitwarden/sdk-napi).
+
 ## To Run
 
 1. `git clone https://github.com/coltonhurst/bw-napi-test.git`
