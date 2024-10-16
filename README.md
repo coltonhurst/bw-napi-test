@@ -1,6 +1,13 @@
 # bw-napi-test
 
-## Setup
+## To Run
+
+1. `git clone https://github.com/coltonhurst/bw-napi-test.git`
+2. Update `src/index.ts` with the correct values to connect to your Bitwarden servers and organization
+2. `npm ci`
+3. `npm run start`
+
+## TS & Node Project Setup Steps
 
 1. `npm init -y`
 2. `npm install typescript --save-dev`
@@ -9,10 +16,12 @@
     - Set `"type"` to `"module"`
     - Add this script: `"start": "tsc && node ./dist/index.js"`
 5. Create a `src` dir
-6. Create `index.ts` in `src`
+6. Create `src/index.ts`
 7. Create a `tsconfig.json` file based on the one below
 
-## tsconfig.json
+For this project (`bw-napi-test`), I then installed the SM SDK ([npm link](https://www.npmjs.com/package/@bitwarden/sdk-napi)) and used the getting started code.
+
+### tsconfig.json
 
 ```json
 {
